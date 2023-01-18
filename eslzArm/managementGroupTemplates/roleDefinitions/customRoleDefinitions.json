@@ -50,8 +50,7 @@
             "actions": [
               "*/read",
               "Microsoft.Network/*",
-              "Microsoft.Resources/deployments/*",
-              "Microsoft.Support/*"
+              "Microsoft.Resources/deployments/*"
             ],
             "notActions": [],
             "dataActions": [],
@@ -84,8 +83,7 @@
               "Microsoft.Authorization/policySetDefinitions/*",
               "Microsoft.Insights/alertRules/*",
               "Microsoft.Resources/deployments/*",
-              "Microsoft.Security/*",
-              "Microsoft.Support/*"
+              "Microsoft.Security/*"
             ],
             "notActions": [],
             "dataActions": [],
