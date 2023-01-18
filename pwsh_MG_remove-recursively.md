@@ -1,4 +1,4 @@
-'''pwsh
+```powershell
 function remove-recursively($name)
 {
 #Enters the parent Level
@@ -23,10 +23,10 @@ Write-Host "Removing the scope $name" -ForegroundColor Cyan
 Remove-AzManagementGroup -InputObject $parent
 }
 
-'''
+```
 
 invoke:
 
-'''sh
+```powershell
 remove-recursively -name "RootGroupName"
-'''
+```
